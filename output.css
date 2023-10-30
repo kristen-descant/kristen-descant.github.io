@@ -618,8 +618,8 @@ video {
   margin-right: 0.75rem;
 }
 
-.mr-\[10vw\] {
-  margin-right: 10vw;
+.mr-auto {
+  margin-right: auto;
 }
 
 .mt-3 {
@@ -822,6 +822,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .text-sky-700 {
