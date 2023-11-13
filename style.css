@@ -1,0 +1,113 @@
+body {
+    background: #eaf4f4;
+    height: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #2f3e46;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 20px;
+}
+h1 {
+    color: white;
+    padding-left: 2vw;
+    margin: 0;
+}
+.introduction {
+    margin-top: 15px;
+    padding-left: 2vw;
+    color: #354f52;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.introduction p {
+    margin-top: 0;
+}
+h3 {
+    padding-left: 2vw;
+    color: #2f3e46;
+    margin: 0;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    border: solid black 2px;
+    margin: 3px;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .icons {
+        margin-right: 2px;
+       
+    }
+    .icons img {
+        height: 20px;
+        width: 20px;
+    }
+    h1 {
+        font-size: larger;
+    }
+    .introduction p {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .icons {
+        margin-right: 5px;
+        
+    }
+    .icons img {
+        height: 35px;
+        width: 35px;
+    }
+    .introduction p {
+        width: 100vw;
+    }
+}
+@media screen and (min-width: 901px) {
+    .icons {
+        margin-right: 10px;
+    }
+    .icons img {
+      height: 50px;
+      width: 50px;
+    }
+    .introduction p {
+        width: 45vw;
+        font-size: x-large;
+    }
+    .video {
+        width: 40vw;
+    }
+    .video iframe {
+        width: 500px;
+        height: 300px;
+    }
+    h3 {
+        font-size: x-large;
+    }
+  }
