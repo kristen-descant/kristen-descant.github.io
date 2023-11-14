@@ -28,6 +28,7 @@ h1 {
 .introduction {
     margin-top: 15px;
     padding-left: 2vw;
+    padding-right: 2vw;
     color: #354f52;
     display: flex;
     justify-content: space-between;
@@ -75,8 +76,9 @@ h3 {
 .cardIMG {
     height: 56%;
 }
-.projInfo {
-    padding: 2px;
+ul {
+    padding-left: 25px;
+    margin-top: 10px;
 }
 .projInfo h4, p {
     margin: 0;
@@ -85,6 +87,11 @@ h3 {
 .projList {
     display: flex;
     flex-direction: row;
+}
+.aboutMe {
+    background-color: #ddb892;
+    color: white;
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,6 +109,7 @@ h3 {
     .introduction p {
         width: 100vw;
     }
+    
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -129,12 +137,9 @@ h3 {
         width: 45vw;
         font-size: x-large;
     }
-    .video {
+    .aboutMe {
         width: 40vw;
-    }
-    .video iframe {
-        width: 500px;
-        height: 300px;
+        font-size: large;
     }
     h3 {
         font-size: x-large;
