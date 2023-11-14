@@ -1,0 +1,147 @@
+body {
+    background: #f2e9e4;
+    height: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #4a4e69;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 20px;
+}
+h1 {
+    color: white;
+    padding-left: 2vw;
+    margin: 0;
+}
+.introduction {
+    margin-top: 15px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: #22223b;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.introduction p {
+    margin-top: 0;
+    text-align: justify;
+}
+h3 {
+    padding-left: 2vw;
+    color: #22223b;
+    margin: 0;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 3vh;
+    flex-wrap: wrap;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    border: solid black 2px;
+    margin: 3px;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #c9ada7;
+}
+.card:hover {
+    transform-origin: bottom ;
+    transform: scale(1.5); /* Change this scale factor as needed */
+    z-index: 1;
+    position: relative;
+}
+.card a, .card div {
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+.cardIMG {
+    height: 56%;
+}
+ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.projInfo h4, p {
+    margin: 0;
+    text-align: center;
+}
+.projList {
+    display: flex;
+    flex-direction: row;
+}
+.aboutMe {
+    background-color: #9a8c98;
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .icons {
+        margin-right: 2px;
+       
+    }
+    .icons img {
+        height: 20px;
+        width: 20px;
+    }
+    h1 {
+        font-size: larger;
+    }
+    .introduction p {
+        width: 100vw;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .icons {
+        margin-right: 5px;
+        
+    }
+    .icons img {
+        height: 35px;
+        width: 35px;
+    }
+    .introduction p {
+        width: 100vw;
+    }
+}
+@media screen and (min-width: 901px) {
+    .icons {
+        margin-right: 10px;
+    }
+    .icons img {
+      height: 50px;
+      width: 50px;
+    }
+    .introduction p {
+        width: 45vw;
+        font-size: x-large;
+    }
+    .aboutMe {
+        width: 45vw;
+        font-size: large;
+    }
+    h3 {
+        font-size: x-large;
+    }
+  }

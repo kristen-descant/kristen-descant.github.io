@@ -3,57 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./dist/output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <title>Kristen Descant | Developer</title>
 </head>
-<body class="bg-gray-900">
-    <div class='relative h-screen'>
-        <div class='rounded w-[60%] border-t-8 border-l-8 border-sky-700 h-[50%] absolute lg:top-10 lg:left-10 top-5 left-5' ></div>
-        <div class='rounded w-[40%] border-b-8 border-r-8 border-sky-700 h-[50%] absolute lg:bottom-10 lg:right-10 bottom-5 right-5'></div>
-        <div class='-z-10 w-[38%] border-b border-r border-gray-500 h-[45%] absolute lg:bottom-12 lg:right-12 bottom-8 right-8 mr-3 mb-3'></div>
-        <div class='-z-10 w-[58%] border-t border-l border-gray-500 h-[47%] absolute lg:top-12 lg:left-12 ml-3 mt-3 top-8 left-8'></div>
-        <div class='flex flex-row absolute top-10 right-20 text-white w-[8%] justify-between'>
-          <a class='mr-2 md:mr-0' href="https://github.com/kristen-descant" target="_blank"><img src="media/github-mark-white.png" alt="github cat" class='h-3 w-3 md:h-5 md:w-5' /></a>
-          <a class='mr-2 md:mr-0' href="https://www.linkedin.com/in/kristen-descant/" target="_blank"><img class='h-3 w-3 md:h-5 md:w-5' src="media/pngwing.com.png" alt="Linkedin Logo" /></a>
-          <a href="mailto:kristendescant01@gmail.com" target="_blank"><img class='h-3 w-3 md:h-5 md:w-5' src="media/icons8-gmail-50.png" alt="gmail icon" /></a>
-        </div>
-        <div class=' h-full w-full md:flex flex-row hidden justify-between items-center'>
-          <div class='w-[50%] h-[60%] ml-[8vw] flex flex-col'>
-            <p class='lg:text-4xl md:text-3xl sm:text-lg text-sm text-white mb-8'>Kristen Descant <span class='text-sky-700'>|</span> Full Stack Developer</p>
-            <p class='text-white text-justify text-xs md:text-sm lg:text-lg'>Extremely motivated and always ready to learn more. 
-              Proficient in Python, Django, JavaScript, and React.js, I have experience building dynamic web applications. My skills 
-              extend to front-end design with HTML, CSS, Tailwind, and Bootstrap, while my database expertise includes PostgreSQL and 
-              MySQL. I embrace best practices such as Test-Driven Development, Object-Oriented Programming, and Git version control. 
-              With a passion for clean, efficient code, I'm excited to contribute my skills to create innovative and impactful software solutions. I am determined to be a life-long student while simultaneously putting
-               my knowledge back into the world.</p>
-          </div>
-          <div class='z-8 w-[35%] h-[40%] mr-auto justify-center flex flex-row'>
-            <div class='h-[90%]  border-l-4 w-1 ml-2 mr-2 border-sky-700'></div>
-            <div class='flex flex-col h-full w-1/2 items-start z-9 relative'>
-              <p class='lg:text-4xl md:text-lg text-white mb-3'>Portfolio</p>
-              
-              <p class="text-white">Code Platoon</p>
-              <a class="text-sky-700 hover:text-gray-500" href="https://reinvestmentpro.com" target="_blank"> <span class="text-white" >-</span> REInvestmentPro <span class="text-white text-xs"> - Personal Project</span></a>
-            
-              <a class="text-sky-700 hover:text-gray-500 z-10" href="https://youtu.be/kJywdk3ow2Q" target="_blank"><span class="text-white" >-</span> ConnectForum <span class="text-white text-xs"> - Group Project</span></a>
-              
-              <p class="text-white mt-3">AWS Cloud</p>
-              <a class="text-sky-700 hover:text-gray-500" href="https://main.d2fnpe5d8nguit.amplifyapp.com/"><span class="text-white" >-</span> Workout Tracker</a>
-              <a class="text-sky-700 hover:text-gray-500" href="http://furbabydiet.click" target="_blank"><span class="text-white" >-</span> Static webpage hosted with AWS S3 Bucket</a>
-              <a class="text-sky-700 hover:text-gray-500" href="https://dev.d219ytiu5jalmj.amplifyapp.com/" target="_blank"><span class="text-white" >-</span> Webpage utilizing Amplify, Lambda, API Gateway, DynamoDB</a>
-
+<body>
+    <header>
+      <h1>Kristen Descant | Full Stack Developer</h1>
+      <div class='links'>
+        <a class='icons' href="https://github.com/kristen-descant" target="_blank"><img src="media/github-mark-white.png" alt="github cat" /></a>
+        <a class='icons' href="https://www.linkedin.com/in/kristen-descant/" target="_blank"><img src="media/pngwing.com.png" alt="Linkedin Logo" /></a>
+        <a class="icons" href="mailto:kristendescant01@gmail.com" target="_blank"><img src="media/icons8-gmail-50.png" alt="gmail icon" /></a>
+      </div>
+    </header>
+    <div class="introduction">
+      <p>
+        Extremely motivated and always ready to learn more. 
+        Proficient in Python, Django, JavaScript, and React.js, I have experience building dynamic web applications. My skills 
+        extend to front-end design with HTML, CSS, Tailwind, and Bootstrap, while my database expertise includes PostgreSQL and 
+        MySQL. I embrace best practices such as Test-Driven Development, Object-Oriented Programming, and Git version control. 
+        With a passion for clean, efficient code, I'm excited to contribute my skills to create innovative and impactful software solutions. I am determined to be a life-long student while simultaneously putting
+        my knowledge back into the world.
+      </p>
+      <div class="aboutMe">
+        Hello, my name is Kristen Descant. I am a full stack software developer who recently transitioned to tech.
+        I joined the United States Marine Corps in 2014 when I was 17 years old. I served for 5 years where I was trained as an air traffic controller.
+        When I separated from the military I continued to work as an air traffic controller at Flager Airport in Palm Coast, FL. After a couple of years 
+        I realized I needed to find my passion and pursue my dream of having a job that I love. This journey to find myself led me to the world of software 
+        engineering. I began by teaching myself Python and then did a semester of college in a computer science program where I furthered my knowledge of Python 
+        and learned database management. A year later I realized that in order to make this career change I would need to commit to learning full time. I left my 
+        job and began attending Code Platoon's Full Stack Software Engineering program. I am now seeking my first role as a Junior Software Engineer. I am so excited
+        to continue this adventure. Thank you for looking at my portfolio!
+      </div>
+    </div>
+    <h3>Check out some of my recent projects</h3>
+    <div class="cardContainer">
+      <div class="card">
+        <a href="https://reinvestmentpro.com" target="_blank">
+          <div>
+            <img class="cardIMG" src="media/REInvestmentPro.png" alt="">
+            <div class="projInfo">
+              <h4>REInvestmentPro</h4>
+              <div class="projList">
+                <ul>
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>JavaScript</li>
+                  <li>User Auth</li>
+                </ul>
+                <ul>
+                  <li>React</li>
+                  <li>PostgreSQL</li>
+                  <li>Amazon Route 53</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='h-full w-full md:hidden flex-col flex items-center justify-center'>
-          <div class='h-[30%] w-[80%] text-4xl text-white flex items-center ml-3'>
-            <p>Kristen Descant</p>
-          </div>
-          <div class='h-[30%] w-[80%] flex items-center justify-end text-white text-4xl mr-3'>
-            <p>Full Stack Developer</p>
-          </div>
-        </div>
+        </a>
       </div>
+      <div class="card">
+        <a href="https://www.youtube.com/watch?v=kJywdk3ow2Q" target="_blank">
+          <div>
+            <img class="cardIMG" src="media/connectForum.png" alt="">
+            <div class="projInfo">
+              <h4>ConnectForum - Group Project </h4>
+              <div class="projList">
+                <ul>
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>Channels</li>
+                  <li>JavaScript</li>
+                  <li>User Auth</li>
+                </ul>
+                <ul>
+                  <li>React</li>
+                  <li>Websockets</li>
+                  <li>PostgreSQL</li>
+                  <li>Reddis</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://main.d2fnpe5d8nguit.amplifyapp.com/" target="_blank">
+          <div>
+            <img class="cardIMG" src="media/workoutApp.png" alt="">
+            <div class="projInfo">
+              <h4>Workout Tracker App </h4>
+              <div class="projList">
+                <ul>
+                  <li>React</li>
+                  <li>AWS Amplify</li>
+                  <li>User Auth</li>
+                </ul>
+                <ul>
+                  <li>AWS Cognito</li>
+                  <li>DynamoDB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="http://furbabydiet.click/" target="_blank">
+          <div>
+            <img class="cardIMG" src="media/furbabyDiet.png" alt="">
+            <div class="projInfo">
+              <h4>Furbaby Diet </h4>
+              <div class="projList">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Amazon S3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://dev.d219ytiu5jalmj.amplifyapp.com/" target="_blank">
+          <div>
+            <img class="cardIMG" src="media/powerofmath.png" alt="">
+            <div class="projInfo">
+              <h4>To the Power of Math</h4>
+              <div class="projList">
+                <ul>
+                  <li>AWS Amplify</li>
+                  <li>AWS Lambda</li>
+                </ul>
+                <ul>
+                  <li>API Gateway</li>
+                  <li>DynamoDB</li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
 </body>
 </html>
